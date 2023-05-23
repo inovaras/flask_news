@@ -11,7 +11,6 @@ from . import models
 app_context = app.app_context()
 app_context.push()
 
-from . import forms
 from . import views
 
 
